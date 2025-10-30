@@ -177,7 +177,7 @@ aqui se visualiza el saldo depositado o transferido
 
 ---
 NOTA:
-Revise el controller porque use String (y no Long), ya que mis IDs como "A001" no son números. este fue un "Erro" que encontre en ("/customers/{customerId}/accounts") ya que tenia @PathVariable Long en lugar de String y yo queria utilizar ID como A008 etc
+Revise el controller porque deseaba usar String (y no Long), ya que mis IDs como "A001" no son números. este fue un "Error" que encontre en ("/customers/{customerId}/accounts") ya que tenia @PathVariable Long en lugar de String y yo queria utilizar IDs como A008 etc
 
 ---
 
